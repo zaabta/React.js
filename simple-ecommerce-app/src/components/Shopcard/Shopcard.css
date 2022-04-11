@@ -1,0 +1,26 @@
+.shop-card-main {
+    margin: 7em 20rem;
+}
+
+
+.shop-card-main> .btn {
+    color: #000000;
+    padding: 0.4rem 0.2rem;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 4px;
+    font-weight: 400;
+    width: 3em;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.959);
+    background: transparent;
+    letter-spacing: .5;
+    margin: 0;
+}
+
+.shop-card-main> .btn:hover {
+    background-color: #000000;
+    color: aliceblue;
+}

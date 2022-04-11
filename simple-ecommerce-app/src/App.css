@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+body{
+  overflow-x: hidden;
+}

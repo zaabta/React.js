@@ -1,0 +1,26 @@
+.list-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 30px;
+    margin: 5em;
+    margin-top: 5em;
+    
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+@media (min-width: 40rem) {
+    .cards-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards-item {
+        width: 33.3333%;
+    }
+}
