@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  font-size: larger;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
+  'Courier New', monospace;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color:rgb(233, 233, 233);
+  font-size: medium;
+  font-display: black;
+  font-weight: 100;
+  border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+  cursor: pointer; 
+}
+
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+  min-height: 100vh;
+}
+
+.note-list{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  );
+}
+
+.note{
+  background-color: rgb(232, 245, 50);
+  margin: 1rem 1rem;
+  border-radius: 10px;
+  padding: 1em;
+  min-height: 170px;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  flex-Shrink: 1;
+  word-wrap: break-word; 
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+
+.new{
+  background-color: rgb(50, 222, 245);
+  margin: 0 1em 0 1em;
+  border-radius: 10px;
+  padding: 1em;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.new textarea{
+  border: none;
+  background-color: #67d7cc;
+  resize: none;
+  font-size: larger;
+}
+
+.new textarea:focus{
+  outline: none;
+}
+
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Save{
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 35px;
+  background-color: rgb(238, 238, 238);
+  text-decoration: black;
+  cursor: pointer;
+}
+
+.delete-icon{
+  text-decoration: black;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(233, 233, 233);
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search .input{
+  padding: 2px 5px;
+  width: 100%;
+  min-height: 1.5em;
+  text-decoration: black; 
+  font-size: medium;
+  background-color: rgb(233, 233, 233);
+  border: none;
+}
+
+.search .input:focus{
+  outline: none;
+}
+
+.search .icon{
+  text-decoration: black;
+  margin: 0 5px;
+}
+
+
+.dark-mode{
+  background-color: black;
+
+}
+
+.dark-mode h1{
+  color: white;
+}
