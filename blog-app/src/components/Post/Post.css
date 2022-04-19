@@ -1,0 +1,128 @@
+.post {
+    align-items: center;
+    text-align: center;
+}
+
+
+.post >.post-info {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    padding: .5% 3.5%;
+    top: -75px;
+    border: none;
+    border-radius: 1em;
+    z-index: 0;
+    height: 50%;
+    max-width: 55%;
+    margin: 0 auto;
+    font-size: 1vw;
+}
+
+.post >.post-info > h3 {
+    font-size: 1.5vw;
+}
+
+.post >.post-info > p {
+    font-size: 1vw;
+}
+
+
+
+.post  img {
+    width: 85%;
+    height: 100%;
+}
+
+.post >.post-info>.post-info-views-data-tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.post >.post-info>.post-info-views-data-tags >.views {
+    margin: 0 .5em;
+    text-align: center;
+    align-items: center;
+}
+
+
+.post >.post-info>.post-info-views-data-tags >.date {
+    margin: 0 .5px;
+}
+
+.post >.post-info>.post-info-views-data-tags >.tags {
+    margin: 0 2px;
+    font-size: 1vw;
+}
+
+.post >.post-info>.post-info-views-data-tags >.tags> label {
+    margin: 0 1px 0 2px;
+}
+
+.post >.post-info>.post-info-views-data-tags .icon {
+    padding-right: 5px;
+    font-size: small;
+}
+
+
+@media screen and (max-width: 960px) {
+    .post >.post-info {
+        max-width: 40%;
+        top: -45px;
+    } 
+    .post >.post-info>.post-info-views-data-tags {
+        font-size: 5pt;
+    }
+    .post >.post-info>.post-info-views-data-tags >.tags {
+        font-size: 2vw;
+    }
+    .post >.post-info>.post-info-views-data-tags >.tags> label {
+        font-size: 1vw;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .post >.post-info>.post-info-views-data-tags {
+        padding: 0;
+        margin: 0;
+    }
+
+    .post >.post-info>.post-info-views-data-tags >.views {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    
+    .post >.post-info>.post-info-views-data-tags >.date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .post >.post-info>.post-info-views-data-tags >.date> label{
+        font-size: 1pt;
+    }
+    
+    .post >.post-info>.post-info-views-data-tags >.tags {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .post >.post-info>.post-info-views-data-tags >.tags > label{
+        font-size: 1vw;
+    }
+    .post >.post-info>.post-info-views-data-tags >.tags > label{
+        font-size: .2vw;
+    }
+    
+}

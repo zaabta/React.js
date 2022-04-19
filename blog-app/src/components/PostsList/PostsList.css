@@ -1,0 +1,20 @@
+.posts-list {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.posts-list >.link {
+    text-decoration: none;
+    color: black;
+}
+
+.posts-list> .btn {
+    border: none;
+    background-color: #05A5EA;
+    color: white;
+    padding: 1em 2em;
+    border-radius: .5em;
+    cursor: pointer;
+}

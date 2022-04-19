@@ -1,0 +1,26 @@
+.comment {}
+
+.comment>.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment>.container>.avater-username {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin: 0 0 -.5em 0;
+}
+
+
+.comment>.container>.avater-username>.avater {
+    border: none;
+    border-radius: 50em;
+    height: 10%;
+    width: 5%;
+    margin: 0 .5em;
+}
+
+.comment>.container>#text {
+    margin: 0 0 0 2em;
+}

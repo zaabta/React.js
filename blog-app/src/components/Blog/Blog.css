@@ -1,0 +1,44 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog > h1 {
+    padding: .5vw;
+}
+
+
+.blog> .container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.blog> .container >.posts{
+    width: 60%;
+}
+
+.blog> .container > .comments {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 25%;
+    height: 100%;
+    z-index: 0;
+    top: 89px;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .blog> .container >.posts {
+        width: 100%;
+    }
+    .blog> .container > .comments {
+        display: none;
+    }
+    .blog > h1 {
+        text-align: center;
+    }
+}

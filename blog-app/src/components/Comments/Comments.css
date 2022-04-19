@@ -1,0 +1,13 @@
+.comments {
+    margin: 0 .5em 1em .5em;
+}
+
+.comments> .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments> .container >.comment {
+    display: flex;
+    flex-direction: column;
+}
