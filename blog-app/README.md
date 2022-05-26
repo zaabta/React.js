@@ -1,3 +1,3 @@
 ## Blog 
 
-[note-app](https://capable-croquembouche-aa2a45.netlify.app "blog-app")
+[blog-app](https://capable-croquembouche-aa2a45.netlify.app "blog-app")
